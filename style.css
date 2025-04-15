@@ -1,0 +1,100 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #2d6a4f;
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #5aaf5a;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: white;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #f0f0f0;
+  }
+  
+  /* Seção de introdução */
+  .intro {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    font-size: 2em;
+    color: #2d6a4f;
+  }
+  
+  /* Galeria de imagens */
+  .gallery {
+    background-color: #e2e2e2;
+    padding: 40px 0;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
