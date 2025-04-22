@@ -27,7 +27,7 @@
     color: #d902ed;
   }
   
-  /* Estilos do cabeçalho */
+  /* Estilos do cabecalho */
   header {
     background-color: #5aaf5a;
     padding: 50px 0;
@@ -44,7 +44,7 @@
     color: #be0505;
   }
   
-  /* Seção de introdução */
+  /* Secao de introducao */
   .intro {
     background-color: #ffffff;
     padding: 40px 0;
@@ -86,7 +86,7 @@
     transform: scale(1.05);
   }
   
-  /* Estilo do rodapé */
+  /* Estilo do rodape */
   footer {
     background-color: #333;
     color: white;
